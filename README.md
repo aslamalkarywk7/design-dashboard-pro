@@ -1,96 +1,202 @@
-# نظام Atrium - المنصة الشاملة لرأس المال الصناعي 🏭
-![iamge](./image/5005bfa2-9b17-4465-8e87-d33cc8a4b66a.jpg)
-[English Version Below](#english-version)
+# 🏭 نظام Atrium — المنصة الشاملة لرأس المال الصناعي
+
+<div align="center">
+
+![معاينة المنصة](./image/5005bfa2-9b17-4465-8e87-d33cc8a4b66a.jpg)
+
+**نظام تشغيل متكامل لإدارة الأصول الصناعية، العطاءات، والتنبؤات الاستثمارية**
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
+
+</div>
+
+---
 
 ## 📌 نظرة عامة
-**Atrium Industrial OS** هو قالب متقدم للغاية يدمج بين صفحات هبوط تسويقية (Landing Pages) فائقة الفخامة ولوحة تحكم (Dashboard) متطورة. يستهدف القالب المؤسسات المالية، صناديق الاستثمار السيادية، والشركات الصناعية الكبرى التي تحتاج إلى واجهة احترافية لإدارة الأصول (Asset Registry)، التنبؤات الاستثمارية، والعقود.
 
-## 🚀 المميزات الرئيسية
-- **صفحة هبوط فاخرة (Luxury Landing Page):** تصميم تسويقي راقٍ يستخدم التدرجات اللونية (Luxe Lighting) وعناصر واجهة دقيقة ليعكس الثقة والموثوقية المؤسسية.
-- **نظام Atrium التشغيلي:** واجهة مصممة لتبدو كنظام تشغيل متكامل (OS) لإدارة الأصول الصناعية والمالية.
-- **إدارة العروض (Bid Management):** واجهات مخصصة لعرض التحديثات اللحظية (Real-time) للعقود والصفقات.
-- **سجل الأصول الذكي (Asset Registry):** مكونات لعرض ومتابعة الأصول مع إحصائيات دقيقة (مثل الحجم الإجمالي للاستثمارات).
-- **تصميم أمني قوي (Trust Fabric):** تصميم يوحي بالقوة الأمنية والتشفير (Lattice Cipher) لجذب المؤسسات التي تتطلب معايير امتثال عالية (SOC 2, ISO 27001).
+**Atrium Industrial OS** هو قالب متقدم يدمج بين:
 
-## 🛠️ التقنيات المستخدمة (Tech Stack)
-- **إطار العمل:** Next.js 14+ (App Router) & React 19
-- **لغة البرمجة:** TypeScript
-- **التصميم وتنسيق الواجهات:** Tailwind CSS v4 مع تأثيرات حركية دقيقة (Micro-interactions)
-- **مكونات واجهة المستخدم:** Radix UI
-- **الأيقونات:** Lucide React
+- **صفحة هبوط تسويقية فاخرة** — واجهة تسويقية راقية مع تدرجات إضاءة ديناميكية
+- **لوحة تحكم مؤسسية متكاملة** — نظام يبدو كنظام تشغيل متكامل لإدارة الأصول الصناعية والمالية
 
-## ⚙️ طريقة التشغيل (Getting Started)
-لتشغيل المشروع محلياً:
-# SaaS Dashboard UI — لوحة تحكم احترافية
-
-> قالب لوحة تحكم SaaS احترافي مبني بـ Next.js + React + TailwindCSS.
+يستهدف القالب المؤسسات المالية، صناديق الاستثمار السيادية، وشركات الطاقة والبنية التحتية التي تحتاج إلى واجهة احترافية عالية المستوى.
 
 ---
 
 ## 📸 معاينة المشروع
 
-![Preview 1](./image/Screenshot%202026-05-19%20104656.png)
-![Preview 2](./image/Screenshot%202026-05-19%20105337.png)
-![Preview 3](./image/Screenshot%202026-05-19%20105340.png)
-![Preview 4](./image/Screenshot%202026-05-19%20105343.png)
+| صفحة الهبوط | لوحة التحكم |
+|:-----------:|:-----------:|
+| ![معاينة 1](./image/Screenshot%202026-05-19%20104656.png) | ![معاينة 2](./image/Screenshot%202026-05-19%20105337.png) |
+
+![معاينة 3](./image/Screenshot%202026-05-19%20105340.png)
+![معاينة 4](./image/Screenshot%202026-05-19%20105343.png)
 
 ---
 
-1. **تثبيت الحزم (Dependencies):**
-```bash
-npm install
-# أو باستخدام pnpm
-pnpm install
-```
+## 🚀 المميزات الرئيسية
 
-2. **تشغيل خادم التطوير (Development Server):**
-```bash
-npm run dev
-# أو باستخدام pnpm
-pnpm dev
-```
+### 🎨 التصميم والواجهة
+- **صفحة هبوط فاخرة** — تدرجات إشعاعية دقيقة وعناصر واجهة تعكس الثقة والموثوقية المؤسسية
+- **تأثير الزجاج (Glassmorphism)** — حدود رفيعة وخلفيات شفافة لعمق بصري احترافي
+- **ميكرو-تفاعلات** — تأثيرات حركية دقيقة تجعل الواجهة حيّة وتفاعلية
+- **نظام ألوان OKLCH** — دقة لونية عالية بذهبي مطفأ وفحمي داكن
 
-3. **معاينة المشروع:**
-افتح الرابط [http://localhost:3000](http://localhost:3000) في متصفحك.
+### 📊 وظائف لوحة التحكم
+- **إدارة العطاءات اللحظية** — جدول مباشر لمتابعة 14+ عطاءً صناعياً نشطاً
+- **نموذج التنبؤ بالذكاء الاصطناعي** — رسم بياني يتنبأ بحجم التسوية على مدى 5 أسابيع
+- **بطاقات مؤشرات الأداء (KPI)** — 4 مؤشرات رئيسية مع رسوم بيانية صغيرة (Sparklines)
+- **رؤى المستثمرين** — تحليل مرجح حسب قيمة الأصول المُدارة (AUM)
+- **سجل الأصول الذكي** — متابعة الأصول مع إحصائيات دقيقة
+
+### 🔒 الأمان والامتثال
+- **نظام Trust Fabric** — واجهة تُوحي بالأمان والتشفير (Lattice Cipher)
+- **جاهز للامتثال** — مصمم لمعايير SOC 2 و ISO 27001
+- **Auth Ready** — يدعم إضافة Middleware للمصادقة على مسار `/dashboard`
 
 ---
 
-<a name="english-version"></a>
-# Atrium - The Operating System for Industrial Capital 🏭
+## 🛠️ التقنيات المستخدمة
 
-## 📌 Overview
-The **Atrium Industrial OS** is a highly advanced template that combines ultra-luxurious marketing landing pages with a sophisticated dashboard. It targets financial institutions, sovereign wealth funds, and major industrial corporations that require a professional interface for asset management, investment forecasting, and smart contracts.
+| التقنية | الإصدار | الغرض |
+|---------|---------|--------|
+| **Next.js** | 16.2 | إطار العمل الرئيسي (App Router) |
+| **React** | 19 | مكتبة واجهة المستخدم |
+| **TypeScript** | 5.7 | لغة البرمجة المكتوبة بالأنواع |
+| **Tailwind CSS** | v4 | نظام التصميم والتنسيق |
+| **Radix UI** | متعدد | مكونات واجهة المستخدم الأساسية |
+| **Recharts** | 2.15 | الرسوم البيانية التفاعلية |
+| **Lucide React** | 0.564 | مكتبة الأيقونات |
+| **next-themes** | 0.4.6 | إدارة الثيم (ليلي/نهاري) |
+| **Vercel Analytics** | 1.6.1 | تحليلات الأداء |
 
-## 🚀 Key Features
-- **Luxury Landing Page:** A refined marketing design utilizing subtle radial gradients and precise UI elements to project institutional trust and reliability.
-- **Atrium OS Architecture:** Designed to feel like a complete operating system for managing industrial and financial assets.
-- **Bid Management UI:** Interfaces dedicated to displaying real-time updates for contracts and deals.
-- **Smart Asset Registry:** Components for tracking assets with precise statistics (e.g., Assets Under Custody).
-- **Trust Fabric Design:** The UI conveys a strong sense of security and encryption (Lattice Cipher custody) to attract institutions requiring high compliance standards (SOC 2, ISO 27001).
+---
 
-## 🛠️ Tech Stack
-- **Framework:** Next.js 14+ (App Router) & React 19
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS v4 with refined micro-interactions
-- **UI Components:** Radix UI
-- **Icons:** Lucide React
+## ⚙️ طريقة التشغيل
 
-## ⚙️ Getting Started
-To run the project locally:
+### المتطلبات المسبقة
 
-1. **Install dependencies:**
+- **Node.js** الإصدار 18.17 أو أحدث
+- **pnpm** (موصى به) أو **npm** أو **yarn**
+
+### خطوات التثبيت
+
+**1. تثبيت الحزم:**
+
 ```bash
-npm install
-# or using pnpm
+# باستخدام pnpm (الموصى به)
 pnpm install
+
+# أو باستخدام npm
+npm install
 ```
 
-2. **Run the development server:**
+**2. تشغيل خادم التطوير:**
+
 ```bash
-npm run dev
-# or using pnpm
+# باستخدام pnpm
 pnpm dev
+
+# أو باستخدام npm
+npm run dev
 ```
 
-3. **View the project:**
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+**3. معاينة المشروع:**
+
+افتح متصفحك وانتقل إلى:
+```
+http://localhost:3000          ← صفحة الهبوط
+http://localhost:3000/dashboard ← لوحة التحكم
+```
+
+### أوامر المشروع الكاملة
+
+```bash
+pnpm dev      # تشغيل خادم التطوير
+pnpm build    # بناء نسخة الإنتاج
+pnpm start    # تشغيل نسخة الإنتاج
+pnpm lint     # فحص جودة الكود
+```
+
+---
+
+## 📁 هيكل المشروع
+
+```
+├── app/
+│   ├── layout.tsx              # التخطيط الجذري (خطوط + metadata)
+│   ├── page.tsx                # صفحة الهبوط الرئيسية
+│   ├── globals.css             # متغيرات CSS والألوان والتأثيرات
+│   └── dashboard/
+│       ├── layout.tsx          # تخطيط لوحة التحكم
+│       ├── page.tsx            # صفحة النظرة العامة
+│       ├── assets/             # سجل الأصول
+│       ├── bids/               # إدارة العطاءات
+│       ├── contracts/          # العقود
+│       ├── counterparties/     # الأطراف المقابلة
+│       └── insights/           # رؤى المستثمرين
+│
+├── components/
+│   ├── dashboard/
+│   │   ├── sidebar.tsx         # الشريط الجانبي للتنقل
+│   │   ├── topbar.tsx          # الشريط العلوي
+│   │   ├── page-header.tsx     # رأس الصفحة والتذييل
+│   │   ├── kpi-cards.tsx       # بطاقات مؤشرات الأداء
+│   │   ├── predictive-chart.tsx # الرسم البياني التنبؤي
+│   │   ├── bid-management.tsx  # جدول العطاءات
+│   │   └── investor-insights.tsx # رؤى المستثمرين
+│   ├── marketing/
+│   │   ├── site-nav.tsx        # تنقل صفحة الهبوط
+│   │   └── hero-preview.tsx    # القسم التمهيدي (Hero)
+│   ├── ui/                     # مكونات Radix UI المخصصة
+│   └── theme-provider.tsx      # موفر الثيم
+│
+├── hooks/                      # خطافات React المخصصة
+├── lib/
+│   └── utils.ts                # دوال مساعدة (cn)
+└── public/                     # الملفات الثابتة
+```
+
+---
+
+## 📖 التوثيق التفصيلي
+
+للحصول على دليل استخدام وتخصيص كامل باللغة العربية، راجع:
+
+- 📄 **[DOCUMENTATION_AR.md](./DOCUMENTATION_AR.md)** — الدليل التقني الشامل خطوة بخطوة
+- 🏗️ **[TECHNICAL_ARCHITECTURE.md](./TECHNICAL_ARCHITECTURE.md)** — الهيكلية التقنية والمعمارية
+
+---
+
+## 🌐 النشر
+
+أسرع طريقة للنشر هي عبر [Vercel](https://vercel.com):
+
+```bash
+# تثبيت Vercel CLI
+npm install -g vercel
+
+# النشر بأمر واحد
+vercel --prod
+```
+
+أو اربط مستودع GitHub الخاص بك مباشرةً عبر [vercel.com/new](https://vercel.com/new).
+
+---
+
+## 📄 الترخيص
+
+هذا المشروع مرخص بموجب [رخصة MIT](./LICENSE).
+
+---
+
+<div align="center">
+
+**صُنع بدقة واحترافية لأعلى معايير واجهات المؤسسات المالية**
+
+*Atrium Industrial OS · الإصدار 4.2.1*
+
+</div>
